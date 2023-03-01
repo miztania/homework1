@@ -8,28 +8,18 @@ namespace homework1
         
         static void Main(string[] args)
         {
-            /*
-          string password = "654621";
-          Console.WriteLine(getDigitNumber(password,6));
-          */
-        
+         
             Console.Write("Enter Password: ");
             string password = Console.ReadLine();
             Console.Write("Enter agency: ");
             string agency = Console.ReadLine();
 
-            
             Console.WriteLine(CheckPassword(password,agency));
 
-            bool result = true;
-            
-         
-         
-  
         }
 
         static bool CheckPassword(string password,string agency){
-            //Console.WriteLine(password+" "+agency);
+            
           
             string[] stringAgent = {"FBI","CIA","NSA"};
         
